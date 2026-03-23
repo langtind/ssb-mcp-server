@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic-community/ssb-mcp-server",
+  "name": "ssb-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for SSB (Statistics Norway) — access Norwegian public statistics from AI assistants",
   "type": "module",
