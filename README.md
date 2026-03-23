@@ -52,14 +52,6 @@ Start Claude Desktop på nytt. Du ser hammersikonet (🔨) — klikk for å se S
 claude mcp add ssb -- npx -y ssb-mcp-server
 ```
 
-#### MCP-server + skills (anbefalt):
-
-```bash
-claude plugin install https://github.com/langtind/ssb-mcp-server
-```
-
-Dette installerer både MCP-serveren og Claude Code-skills som gir AI-en domenekunnskap om SSB API og datavisualisering.
-
 ### Cursor / VS Code
 
 Legg til i MCP-innstillinger (`.cursor/mcp.json` eller VS Code MCP config):
