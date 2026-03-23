@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ssb": {
+      "command": "node",
+      "args": ["dist/index.js"]
+    }
+  }
+}

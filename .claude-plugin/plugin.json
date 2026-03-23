@@ -1,0 +1,8 @@
+{
+  "name": "ssb-mcp",
+  "description": "Norsk offentlig statistikk fra SSB (Statistisk sentralbyrå) — MCP-server med verktøy for å søke, hente og visualisere data fra Statistikkbanken",
+  "version": "1.0.0",
+  "author": {
+    "name": "Langtind"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@anthropic-community/ssb-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for SSB (Statistics Norway) — access Norwegian public statistics from AI assistants",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ssb-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skills"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ssb",
+    "statistics-norway",
+    "statistisk-sentralbyra",
+    "statistikkbanken",
+    "norwegian-statistics",
+    "ai",
+    "claude",
+    "open-data"
+  ],
+  "author": "Arild",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/langtind/ssb-mcp-server"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}
